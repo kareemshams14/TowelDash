@@ -1,28 +1,30 @@
-import { Truck, Clock, Recycle, Shield } from "lucide-react"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/card"
+// components/Features.tsx
+
+import { Truck, Clock, Recycle, Shield } from "lucide-react";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/card";
 
 const features = [
   {
     title: "Same-Day Delivery",
     description: "Get fresh towels delivered to your salon within hours of ordering",
-    icon: Truck
+    icon: Truck,
   },
   {
     title: "24/7 Service",
     description: "Round-the-clock support and delivery scheduling",
-    icon: Clock
+    icon: Clock,
   },
   {
     title: "Eco-Friendly",
     description: "Sustainable practices and environmentally conscious cleaning",
-    icon: Recycle
+    icon: Recycle,
   },
   {
     title: "Quality Guaranteed",
     description: "Premium quality towels and satisfaction guarantee",
-    icon: Shield
-  }
-]
+    icon: Shield,
+  },
+];
 
 export function Features() {
   return (
@@ -52,5 +54,5 @@ export function Features() {
         </div>
       </div>
     </section>
-  )
+  );
 }
